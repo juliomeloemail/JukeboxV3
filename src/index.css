@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@keyframes eq-bounce {
+  0%, 100% {
+    transform: scaleY(0.2);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+.eq-bar {
+  animation: eq-bounce 1s ease-in-out infinite;
+  transform-origin: bottom;
+}
+
+.eq-paused {
+  animation-play-state: paused !important;
+}

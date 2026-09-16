@@ -1,0 +1,6 @@
+{
+  "name": "Jukebox de Festa",
+  "description": "Toca as músicas do seu computador e deixa os convidados pedirem músicas pelo celular na mesma rede local.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
